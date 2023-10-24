@@ -48,17 +48,17 @@ def input_amount():  # обслуживание ввода количества 
             print(f'Ошибка ввода!')
             input_amount()
         return
-
+# 3 Получение данных с интернета
 current_currencies = get_currencies()
 
-# 3. Ввести исходную валюту
+# 4. Ввести исходную валюту
 from_ticker = input_currency("введите исходную валюту ",
                                             current_currencies)
 
-# 4. ввести в какую валюту перевести
+# 5. Ввести в какую валюту перевести
 to_ticker = input_currency("введите в какую  валюту перевести ",
                                         current_currencies)
 
-
+# 6. Ввести количество денег
 input_amount()
 
