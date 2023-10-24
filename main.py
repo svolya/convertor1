@@ -44,7 +44,7 @@ def input_amount():
     while True:
         try:
             amount = float(input("введите количество валюты: "))
-            type(amount) != str
+          #  type(amount) != str
             result = convert(amount, from_ticker, to_ticker, current_currencies)
             print(f'Результат: {amount} {from_ticker} = {result} {to_ticker}')
             go_back = int(input('Хотите продолвить? ДА = 1 / НЕТ = 2 :  '))
@@ -54,8 +54,9 @@ def input_amount():
                 exit()
 
         except ValueError as error:
-            print('Ошибка ввода!')
-            exit()
+
+            print(f'Ошибка ввода!')
+            input_amount()
 
 input_amount()
 
