@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbac87ca-8231-4988-804a-01fbbfe90c0d" name="Changes" comment="vers24.10.22">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="dbac87ca-8231-4988-804a-01fbbfe90c0d" name="Changes" comment="vers24.10.22&#10;vers24(1).10.23" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698137978806</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="vers24.10.22">
+      <created>1698138941980</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698138941980</updated>
+    </task>
+    <task id="LOCAL-00004" summary="vers24.10.22&#10;vers24(1).10.23">
+      <created>1698139205320</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698139205320</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="vers22.10.22" />
     <MESSAGE value="vers24.10.22" />
-    <option name="LAST_COMMIT_MESSAGE" value="vers24.10.22" />
+    <MESSAGE value="vers24.10.22&#10;vers24(1).10.23" />
+    <option name="LAST_COMMIT_MESSAGE" value="vers24.10.22&#10;vers24(1).10.23" />
   </component>
 </project>
