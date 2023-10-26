@@ -34,7 +34,6 @@ def input_amount():  # обслуживание ввода количества 
     while True:
         try:
             amount = float(input("введите количество валюты: "))
-          #  type(amount) != str
             result = convert(amount, from_ticker, to_ticker, current_currencies)
             print(f'Результат: {amount} {from_ticker} = {result} {to_ticker}')
             go_back = int(input('Хотите продолжить? ДА = 1 / НЕТ = 2 :  '))
